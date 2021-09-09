@@ -21,5 +21,5 @@
 ![LSTM3-focus-C](https://user-images.githubusercontent.com/73589723/132472462-dfd686e6-20ee-45a7-83c1-f9f340688c8f.png)
 
 # 5. Output gate (출력 게이트)
-  - Output gate는 어떤 정보를 output으로 내보낼지 정하게 됩니다. 먼저 sigmoid layer에 input data를 넣어 output 정보를 정한 후 Cell state를 tanh layer에 넣어 sigmoid layer의 output과 곱하여 output으로 내보냅니다.
+  - Output gate는 어떤 정보를 output으로 내보낼지 정하게 됩니다. 먼저 sigmoid layer에 input data를 넣어 output 정보를 정한 후 Cell state를 tanh layer에 넣어 sigmoid layer의 output과 곱하여 output으로 내보냅니다
 ![LSTM3-focus-o](https://user-images.githubusercontent.com/73589723/132472593-8c7e4d4d-5111-44c7-bf30-13cbeaccfaaa.png)
